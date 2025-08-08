@@ -1,2 +1,4 @@
 # Site-UVV
-Primeiro "site" feito em conjunto com o Professor de Construção WEB
+Criando um site, projeto universitário. 
+
+Disciplina: Construção WEB.

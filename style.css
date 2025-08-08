@@ -1,34 +1,45 @@
-body{
-     background-color: black;
+body {
+     background-image: url("./images/Giannis-Antetokounmpo-Wallpaper-Free-Download-1.jpg");
+       background-size: cover;
+} 
 
+.imagem {
+   float: center;
+   position: relative;
+   left: 300px;
+   
 }
 
 h1{
 
    color:greenyellow;
-   font-size: 20px;
+   font-size: 50px;
    text-align: center;
 
 }
 
 h1:hover{
-  color:indigo
+  color:green
 
 
 
 }
 
+h1 a {
+    text-decoration: none;
+    color: inherit; /* mantém a cor do h1 */
+}
 
 h2{
    color:greenyellow;
-   font-size: 20px;
+   font-size: 45px;
    text-align: center;
 
 
 }
 
 h2:hover{
-   color:indigo
+   color:green
 
 
 
@@ -36,23 +47,35 @@ h2:hover{
 
 p{
    color:greenyellow;
-   font-size: 20px;
+   font-size: 38px;
    text-align: center;
  
 }
 
 h3{
-   color:whitesmoke;
-   font-size: 30px;
+   color:greenyellow;
+   font-size: 40px;
 
 
 }
 
 
 ul{
-  color:red;
-  font-size: 15px;
+  color:darkolivegreen;
+  font-size: 20px;
   text-align: left;
 
 }
 
+footer{
+   position: fixed;
+   bottom: 0;
+    right: 0;
+    width: 100%;
+    color: darkseagreen;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px;
+    background: rgba(0,0,0,0.5); /* opcional, para dar contraste */
+    padding: 10px 0;
+}
