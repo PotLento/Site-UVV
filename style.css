@@ -1,0 +1,58 @@
+body{
+     background-color: black;
+
+}
+
+h1{
+
+   color:greenyellow;
+   font-size: 20px;
+   text-align: center;
+
+}
+
+h1:hover{
+  color:indigo
+
+
+
+}
+
+
+h2{
+   color:greenyellow;
+   font-size: 20px;
+   text-align: center;
+
+
+}
+
+h2:hover{
+   color:indigo
+
+
+
+}
+
+p{
+   color:greenyellow;
+   font-size: 20px;
+   text-align: center;
+ 
+}
+
+h3{
+   color:whitesmoke;
+   font-size: 30px;
+
+
+}
+
+
+ul{
+  color:red;
+  font-size: 15px;
+  text-align: left;
+
+}
+
