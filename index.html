@@ -1,40 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR"> <!-- Coloquei pt-BR porque o conteúdo está em português -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luiz Felipe</title>
+    <title>Site de Luiz Felipe</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Movi o CSS de marcador de lista para cá -->
+    <style>
+        ul li::marker {
+            color: greenyellow;
+        }
+    </style>
 </head>
 
 <body>
-<section>
-    <h1><a href="https://linkedin.com/in/luiz-felipe-monteiro-3740a7323">
-        <strong>Luiz Felipe Monteiro</strong></h1> </a>
-     <h2>Aluno da UVV </h2>
-    
-     <div class= "imagem"> 
-     <img src="./images/063_1367457228.jpg"> </img>
-     <img src="./images/Giannis smilling.jpg"> </img>
-     </div>
+    <section>
+        <!-- Corrigi a ordem de fechamento das tags -->
+        <h1>
+            <a href="https://linkedin.com/in/luiz-felipe-monteiro-3740a7323">
+                <strong>Luiz Felipe Monteiro</strong>
+            </a>
+        </h1>
 
-     <ul>
-     <ol type="0" start="1">
+        <h2>Aluno da UVV</h2>
+    
+        <!-- Centralização vai ser feita pelo CSS -->
+        <div class="imagem"> 
+            <img src="./images/063_1367457228.jpg" alt="Foto de Luiz Felipe">
+            <img src="./images/Giannis smilling.jpg" alt="Giannis sorrindo">
+        </div>
+
+        <!-- Usei apenas <ol> para lista numerada -->
         <h3>TOP 5 ALL-TIME DA NBA</h3>
-        <li>Michael Jordan</li>
-        <li>Lebron James</li>
-        <li>Kareem Abdul-Jabaar</li>
-        <li>Magic Johnson</li>
-        <li>Tim Duncan</li>
-     </ul>
-    </ol>
+        <ol start="1">
+            <li>Michael Jordan</li>
+            <li>Lebron James</li>
+            <li>Kareem Abdul-Jabaar</li>
+            <li>Magic Johnson</li>
+            <li>Tim Duncan</li>
+        </ol>
      
-     <p>Aluno da <strong>UVV</strong> desde Julho de 2025, estou no primeiro período do curso de Ciência da Computação.
-        Sempre estive em contato com tecnologias diversas em minha infância. Agora, busco atuar na área de desenvolvimento de softwares e sites.
-    </p>
-    <br>
-     </section>
-<footer><a href="https://linkedin.com/in/luiz-felipe-monteiro-3740a7323">Linkedin</a></footer>
+        <p>
+            Aluno da <strong>UVV</strong> desde Julho de 2025, estou no primeiro período do curso de Ciência da Computação.
+            Sempre estive em contato com tecnologias diversas em minha infância. Agora, busco atuar na área de desenvolvimento de softwares e sites.
+        </p>
+    </section>
+
+    <footer>
+        <a href="https://linkedin.com/in/luiz-felipe-monteiro-3740a7323">Linkedin</a>
+    </footer>
 </body>
 </html>

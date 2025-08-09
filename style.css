@@ -1,81 +1,80 @@
+/* ======== ESTILO GERAL ======== */
 body {
-     background-image: url("./images/Giannis-Antetokounmpo-Wallpaper-Free-Download-1.jpg");
-       background-size: cover;
-} 
+    background-image: url("./images/Giannis-Antetokounmpo-Wallpaper-Free-Download-1.jpg");
+    background-size: cover;
+    margin: 0; /* Remove espaçamento padrão */
+    padding-bottom: 50px; /* Evita que o footer cubra o conteúdo */
+    font-family: Arial, sans-serif; /* Fonte padrão para o site */
+}
 
+/* Centraliza imagens dentro do container */
 .imagem {
-   float: center;
-   position: relative;
-   left: 300px;
-   
+    text-align: center;
+    margin: 20px 0; /* Espaço acima e abaixo */
 }
 
-h1{
-
-   color:greenyellow;
-   font-size: 50px;
-   text-align: center;
-
+.imagem img {
+    max-width: 300px; /* Evita que a imagem fique gigante */
+    margin: 10px;
+    border-radius: 8px; /* Bordas arredondadas para ficar mais bonito */
 }
 
-h1:hover{
-  color:green
-
-
-
+/* ======== TÍTULOS ======== */
+h1, h2, h3 {
+    color: greenyellow;
+    text-align: center;
+    margin: 10px 0;
 }
 
+h1 { font-size: 50px; }
+h2 { font-size: 45px; }
+h3 { font-size: 40px; }
+
+/* Efeito hover nos títulos */
+h1:hover, h2:hover {
+    color: green;
+}
+
+/* Remove sublinhado do link no h1 e mantém a cor */
 h1 a {
     text-decoration: none;
-    color: inherit; /* mantém a cor do h1 */
+    color: inherit;
 }
 
-h2{
-   color:greenyellow;
-   font-size: 45px;
-   text-align: center;
-
-
+/* ======== TEXTO ======== */
+p {
+    color: greenyellow;
+    font-size: 20px;
+    text-align: center;
+    max-width: 800px; /* Limita largura para não ficar cansativo de ler */
+    margin: auto;
 }
 
-h2:hover{
-   color:green
-
-
-
+/* ======== LISTA ======== */
+ol {
+    color: darkgreen;
+    font-size: 20px;
+    max-width: 300px;
+    margin: auto;
 }
 
-p{
-   color:greenyellow;
-   font-size: 38px;
-   text-align: center;
- 
-}
-
-h3{
-   color:greenyellow;
-   font-size: 40px;
-
-
-}
-
-
-ul{
-  color:darkolivegreen;
-  font-size: 20px;
-  text-align: left;
-
-}
-
-footer{
-   position: fixed;
-   bottom: 0;
-    right: 0;
+/* ======== RODAPÉ ======== */
+footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
     color: darkseagreen;
     font-size: 15px;
     text-align: left;
-    margin-top: 20px;
-    background: rgba(0,0,0,0.5); /* opcional, para dar contraste */
-    padding: 10px 0;
+    background: rgba(0,0,0,0.5); /* Transparência para contraste */
+    padding: 10px;
+}
+
+footer a {
+    color: darkseagreen;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: lightgreen;
 }
