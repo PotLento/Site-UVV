@@ -1,4 +1,4 @@
 # Site-UVV
-Criando um site, projeto universitário. 
+Desenvolvendo um site do zero, como parte da disciplina de Construção WEB.
 
-Disciplina: Construção WEB.
+Atualizações na faculdade e em casa para prática.
